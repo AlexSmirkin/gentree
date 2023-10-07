@@ -1,0 +1,17 @@
+{
+    "name": "alks/gentree",
+    "autoload": {
+        "psr-4": {
+            "Alks\\Gentree\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aleksandr Smirkin",
+            "email": "a.smirkin@megaplan.ru"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10"
+    }
+}
