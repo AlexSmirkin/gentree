@@ -18,5 +18,5 @@ run:
 	docker-compose build && docker-compose up -d && docker exec -it gentree_app_1 sh -c "php -f src/index.php"
 
 test:
-	docker-compose build && docker-compose up -d && docker exec -it gentree_app_1 sh -c "./vendor/bin/phpunit tests"
+	docker-compose build && docker-compose up -d && docker exec -it gentree_app_1 sh -c "composer install && ./vendor/bin/phpunit tests"
 
